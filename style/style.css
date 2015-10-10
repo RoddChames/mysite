@@ -1,0 +1,51 @@
+body {
+	background-image:url("../images/batmanbg.jpg");
+	background-position:top center;
+	background-attachment:fixed;
+}
+
+/******DESIGN PRESETS******/
+
+h1, h2, h3, P {
+	color:#969696;
+	clear:both;
+}
+
+#line {
+	height:2px;
+	background-color:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,808000+11,bfbf00+33,ffff00+47,ffff00+52,bfbf00+67,808000+88,000000+100 */
+		background: rgb(0,0,0); /* Old browsers */
+		background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(128,128,0,1) 11%, rgba(191,191,0,1) 33%, rgba(255,255,0,1) 47%, rgba(255,255,0,1) 52%, rgba(191,191,0,1) 67%, rgba(128,128,0,1) 88%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)), color-stop(11%,rgba(128,128,0,1)), color-stop(33%,rgba(191,191,0,1)), color-stop(47%,rgba(255,255,0,1)), color-stop(52%,rgba(255,255,0,1)), color-stop(67%,rgba(191,191,0,1)), color-stop(88%,rgba(128,128,0,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(128,128,0,1) 11%,rgba(191,191,0,1) 33%,rgba(255,255,0,1) 47%,rgba(255,255,0,1) 52%,rgba(191,191,0,1) 67%,rgba(128,128,0,1) 88%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(128,128,0,1) 11%,rgba(191,191,0,1) 33%,rgba(255,255,0,1) 47%,rgba(255,255,0,1) 52%,rgba(191,191,0,1) 67%,rgba(128,128,0,1) 88%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(128,128,0,1) 11%,rgba(191,191,0,1) 33%,rgba(255,255,0,1) 47%,rgba(255,255,0,1) 52%,rgba(191,191,0,1) 67%,rgba(128,128,0,1) 88%,rgba(0,0,0,1) 100%); /* IE10+ */
+		background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(128,128,0,1) 11%,rgba(191,191,0,1) 33%,rgba(255,255,0,1) 47%,rgba(255,255,0,1) 52%,rgba(191,191,0,1) 67%,rgba(128,128,0,1) 88%,rgba(0,0,0,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+	clear:both;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius:40px;
+}
+	
+
+/******DESIGN BODY******/
+#wrapper {
+	height:auto;
+	background-color:#000;
+	overflow:auto;
+}
+
+#menuboxes {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#box1 {
+	height:500px;
+	background-color:#ff0;
+	background-image:url("../images/mysite.jpg");
+}
+
+
+
